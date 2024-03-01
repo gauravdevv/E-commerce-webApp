@@ -1,0 +1,11 @@
+
+.navb {
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-left: 13rem;
+    background-color: #89b1b8;
+}
+
+.navb a{
+    text-decoration: none;
+}

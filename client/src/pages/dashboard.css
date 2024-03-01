@@ -1,0 +1,57 @@
+.card {
+  width: 350px;
+  height: 135px;
+  position: relative;
+  padding: 25px;
+  background: radial-gradient(
+        178.94% 106.41% at 26.42% 106.41%,
+        #fff7b1 0%,
+        rgba(255, 255, 255, 0) 71.88%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #ffffff;
+  box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01),
+    0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09),
+    0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 23px;
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 20px;
+  
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+i {
+    border-radius: 80px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+.orders {
+    background-color: #c7f9cc;
+    color: #146d46;
+}
+
+.users {
+    background-color: #caf0f8;
+    color: #06b3ec;
+}
+
+.sales {
+    background-color: #ffb3c1;
+    color: #d8415d;
+}
+
+.graph {
+    background-color: #ffafcc;
+    color: #7c2e3c;
+}
+
+.margin {
+  margin-left: 40px;
+}

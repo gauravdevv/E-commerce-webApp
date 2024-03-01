@@ -1,0 +1,71 @@
+.tables {
+    width: 800px;
+    margin-top: 80px;
+}
+.tables Table {
+    background: radial-gradient(
+        178.94% 106.41% at 26.42% 106.41%,
+        #fff7b1 0%,
+        rgba(255, 255, 255, 0) 71.88%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #ffffff;
+  box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01),
+    0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09),
+    0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.tables:hover {
+    transform: scale(1.05);
+  }
+
+  .pie {
+    margin-top: 125px;
+    margin-left: 50px;
+    width: 700px;
+    height: 400px;
+    border-radius: 23px;
+    background: radial-gradient(
+        178.94% 106.41% at 26.42% 106.41%,
+        #fff7b1 0%,
+        rgba(255, 255, 255, 0) 71.88%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #ffffff;
+  box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01),
+    0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09),
+    0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+
+  .pie:hover {
+    transform: scale(1.05);
+  }
+
+  .forms {
+    margin-left: 500px;
+    margin-top: 20px;
+    padding: 40px;
+    width: 600px;
+    height: 700px;
+    border-radius: 23px;
+    background: radial-gradient(
+        178.94% 106.41% at 26.42% 106.41%,
+        #fff7b1 0%,
+        rgba(255, 255, 255, 0) 71.88%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #ffffff;
+  box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01),
+    0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09),
+    0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+
+  .forms Button{
+   margin-left: 150px;
+   width: 200px;
+   padding: 10px;
+   border-radius: 23px;
+  }
